@@ -18,7 +18,7 @@ jobs:
   test:
     strategy:
       matrix:
-        ruby-version: ['2.6', '2.7', truffleruby-head]
+        ruby-version: ['2.6', '2.7', truffleruby]
         platform: [ubuntu-latest, macos-latest, windows-lates]
         exclude:
           - ruby-version: truffleruby-head
